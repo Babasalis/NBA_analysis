@@ -1,5 +1,5 @@
 # NBA_analysis
-A collection of SQL queries analyzing the `nba.all_seasons` dataset, exploring player performance, physical attributes, efficiency, and team trends across NBA history.
+A collection of SQL queries analyzing the `all_seasons` dataset, exploring player performance, physical attributes, efficiency, and team trends across NBA history.
 
 ## Queries
 ### `average_size.sql`
@@ -21,4 +21,4 @@ Counts "top-performing player" seasons by team, where a top performance is defin
 For each season, identifies the league leaders in points, rebounds, and assists per game, along with their team. Provides a season-by-season snapshot of statistical leadership across the three core categories.
 
 ## Dataset
-All queries run against `nba.all_seasons`, a table containing per-season player statistics including points, rebounds, assists, shooting efficiency, usage rate, height, weight, and team affiliation.
+All queries run against `all_seasons`, a table containing per-season player statistics including points, rebounds, assists, shooting efficiency, usage rate, height, weight, and team affiliation.
